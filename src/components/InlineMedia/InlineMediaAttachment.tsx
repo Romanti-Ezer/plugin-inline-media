@@ -72,6 +72,7 @@ const InlineMediaAttachment = ({ media, setFocus }: OwnProps) => {
   switch (media.state.contentType) {
     case 'image/jpeg':
     case 'image/png':
+    case 'image/webp':
       return renderImage();
     case 'audio/mpeg':
     case 'audio/ogg':

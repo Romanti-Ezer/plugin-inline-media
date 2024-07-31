@@ -7,18 +7,29 @@ This Flex Plugin goal is to enable the preview of message media in the Flex Task
 The following extensions are supported in this example:
 - image/jpeg
 - image/png
+- image/webp
 - audio/mpeg
 - audio/ogg
 - audio/amr
 - application/pdf
 - video/mp4
 
+## Screenshots
+
+<img src="./screenshots/Image%20and%20Audio%20Preview.png" width="600" alt="Image and Audio Preview">
+
+<img src="./screenshots/PDF%20and%20Video%20Preview.png" width="600" alt="PDF and Video Preview">
+
+<img src="./screenshots/Stickers%20Preview.png" width="600" alt="Stickers Preview">
+
 ## Setup
 
 Make sure you have [Node.js](https://nodejs.org) as well as [`npm`](https://npmjs.com). We support Node >= 10.12 (and recommend the _even_ versions of Node). Afterwards, install the dependencies by running `npm install`:
 
+After clonning the project:
+
 ```bash
-cd 
+cd plugin-inline-media
 
 # If you use npm
 npm install
